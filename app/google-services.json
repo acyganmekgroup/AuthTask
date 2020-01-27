@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "861923637445",
+    "firebase_url": "https://authtask-d3d57.firebaseio.com",
+    "project_id": "authtask-d3d57",
+    "storage_bucket": "authtask-d3d57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861923637445:android:25d0a613cd9f5a40d418ac",
+        "android_client_info": {
+          "package_name": "fit.fitapps.authtask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861923637445-j6boln1kd156sfoaaq7umog30cqkiuho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhEUZvH6scOP-XPgxXuyROQ_3afWm_JPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861923637445-j6boln1kd156sfoaaq7umog30cqkiuho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
