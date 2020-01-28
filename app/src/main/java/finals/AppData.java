@@ -1,5 +1,10 @@
 package finals;
 
+/**
+ * Prośba wygenerować email adresy dla testów aplikacji,
+ * ponieważ w wymaganiah nie było zrobienia strony rejestracji. :)
+ * Poniżej polecam strony dla wegenerowania tymczasowych email adresów. ( można wpisać swój aktualny )
+ */
 public class AppData {
     // manager data
     public static final String managerEmail = "sowaya6517@repshop.net"; // proszę wpisać wygenerowny email. (strona: https://temp-mail.org/pl/)
