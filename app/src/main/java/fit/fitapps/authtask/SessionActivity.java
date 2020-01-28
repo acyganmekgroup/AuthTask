@@ -22,9 +22,10 @@ public class SessionActivity extends Activity {
             AlertDialog.Builder alertDialog = new AlertDialog.Builder(
                     SessionActivity.this);
             alertDialog.setCancelable(false);
-            alertDialog.setTitle("Alert");
+            alertDialog.setTitle("Zgasła sesja!");
             alertDialog
-                    .setMessage("Session Timeout, Hit ok to go to previous screen.");
+                    .setMessage("\n" +
+                            "Limit czasu sesji, naciśnij OK, aby przejść do poprzedniego ekranu.");
             alertDialog.setNegativeButton("OK",
                     new DialogInterface.OnClickListener() {
 

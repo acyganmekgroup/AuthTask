@@ -94,7 +94,7 @@ public class InitTestDataActivity extends AppCompatActivity { // todo activity j
                 , "https://odkupieniewin.yourtechnicaldomain.com/data/gfx/icons/versions/9/0/9.jpg"
                 , "Cuvee Blanc de Blancs"
                 , "Wino o delikatnej zielonej barwie z żółtymi refleksami. "
-                , Kind.WINO
+                , Kind.WINE
         );
 
         FirebaseDatabase.getInstance().getReference("items")
