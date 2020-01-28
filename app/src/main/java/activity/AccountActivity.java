@@ -1,4 +1,4 @@
-package fit.fitapps.authtask;
+package activity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -21,6 +21,7 @@ import java.io.InputStream;
 import java.net.URL;
 
 import enums.Role;
+import fit.fitapps.authtask.R;
 import wrappers.ManagerItemsWrapper;
 import wrappers.WaiterItemsWrapper;
 

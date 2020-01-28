@@ -1,4 +1,4 @@
-package fit.fitapps.authtask;
+package activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +17,8 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import fit.fitapps.authtask.R;
+
 public class LoginActivity extends AppCompatActivity {
 
     private EditText emailField, passwordField;
@@ -30,6 +32,9 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         FirebaseApp.initializeApp(this);
+
+        new Thread(new InitTestData()).start();
+
         mAuth = FirebaseAuth.getInstance();
 
         emailField = findViewById(R.id.emailField);

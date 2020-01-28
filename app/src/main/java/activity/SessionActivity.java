@@ -1,4 +1,4 @@
-package fit.fitapps.authtask;
+package activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -9,7 +9,7 @@ import android.os.Handler;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SessionActivity extends Activity {
-    public static final long DISCONNECT_TIMEOUT = 30000; // 30 sec = 30 * 1000 ms
+    public static final long DISCONNECT_TIMEOUT = 15000; // 30 sec = 30 * 1000 ms
 
     private Handler disconnectHandler = new Handler();
 

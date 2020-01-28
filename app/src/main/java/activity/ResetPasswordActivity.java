@@ -1,4 +1,4 @@
-package fit.fitapps.authtask;
+package activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +14,8 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+
+import fit.fitapps.authtask.R;
 
 public class ResetPasswordActivity extends AppCompatActivity {
 
